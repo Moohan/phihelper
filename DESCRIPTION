@@ -1,17 +1,25 @@
 Package: phihelper
-Title: What the Package Does (One Line, Title Case)
+Title: Helper functions primarily for use within PHI
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "James",
+           family = "McMahon",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "j.mcmahon1@nhs.net")
+Description: A collection of helper functions primarily for use within PHI but some may be useful more generally.
 License: GPL-3
 Suggests: 
-    testthat
+    testthat (>= 2.1.0),
+    spelling
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
+URL: https://github.com/Moohan/phihelper
+BugReports: https://github.com/Moohan/phihelper/issues
+Language: en-GB
+Imports: 
+    magrittr,
+    stringr,
+    purrr,
+    lubridate
