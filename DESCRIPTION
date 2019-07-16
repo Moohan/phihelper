@@ -22,4 +22,5 @@ Imports:
     magrittr,
     stringr,
     purrr,
-    lubridate
+    lubridate,
+    janitor
