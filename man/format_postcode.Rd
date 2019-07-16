@@ -4,10 +4,12 @@
 \alias{format_postcode}
 \title{Format postcodes into a consistent format}
 \usage{
-format_postcode(postcode_var, length = 7)
+format_postcode(postcode, length = 7)
 }
 \arguments{
-\item{length}{(Optional, default: 7-char)}
+\item{postcode}{the postcode to format}
+
+\item{length}{Optional, default: 7-char}
 }
 \value{
 postcode
