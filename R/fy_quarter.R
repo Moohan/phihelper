@@ -8,5 +8,6 @@
 #' @examples
 #' data %<>% mutate(quarter = fy_quarter(lubridate::month(date)))
 fy_quarter <- function(month) {
-  return(c(4, 4, 4, 1, 1, 1, 2, 2, 2, 3, 3, 3)[month])
+  quarter <- c(4, 4, 4, 1, 1, 1, 2, 2, 2, 3, 3, 3)[month]
+  return(quarter)
 }
