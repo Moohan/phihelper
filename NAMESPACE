@@ -3,5 +3,6 @@
 export("%>%")
 export(format_postcode)
 export(fy_quarter)
+export(round)
 export(valid_chi)
 importFrom(magrittr,"%>%")
